@@ -1,0 +1,25 @@
+{
+    "system":"DCAN-II",
+    "module":"PWM Module 8-channels",
+    "serialNumber": "4020",
+    "dllName":"dcan-ii-4020.dll",
+    "setFrequency": {
+        "request":          "05 47 05 1A", 
+        "positiveFeedback": "05 47 05 5A"
+    },
+    "frequencyParametersIndex":{
+        "channel":"04",
+        "freqMSB":"00",
+		"freqMid":"01",
+        "freqLSB":"F3"
+    },
+    "setDutyCycle":{
+        "request":          "05 47 04 1B",
+        "positiveFeedback": "05 47 04 FB"
+    },
+    "dutyCycleParametersIndex":{
+        "channel":"04",
+        "integerPart":"05",
+        "fractionalPart":"06"
+    }
+}
