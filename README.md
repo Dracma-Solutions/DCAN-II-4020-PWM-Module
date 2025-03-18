@@ -4,11 +4,11 @@ To review further information about this product please go to the [wiki](https:/
 
 DCommands are low level command that can be send thru serial port, follow the Serial Port Configuration section to configurate the serial port.
 
-Use **4020_config.json** file or **4020_config(String).json** if you are willing to work with strings. Both files are unde dcommands folder and contain basic frame structure for all operations on the module.
+Use **4020_config.json** file or **4020_config(String).json** if you are willing to work with strings. Both files are in dcommands folder and contain basic frame structure for all operations on the module.
 
 To construct a DCAN frame take the "request" property of the required operation for instance "setDutyCycle" so **"05 47 04 1B"** are the first bytes of the frame.
 
-Then take the parameters index of this operation, in this case "dutyCycleParametersIndex" where first paraemeter is the channel that will be configure, in this example channel 1 and must be read as hexadecimal value, so:
+Then take the parameters index of this operation, in this case "dutyCycleParametersIndex" where first parameter is the channel that will be configure, in this example channel 1 and must be read as hexadecimal value, so:
 
 - "channel" byte must be 01h (1d) 
 
