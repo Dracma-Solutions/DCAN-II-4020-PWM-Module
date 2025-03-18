@@ -9,9 +9,9 @@
     },
     "frequencyParametersIndex":{
         "channel":4,
-        "freqMSB":0,
-		"freqMid":1,
-        "freqLSB":243
+        "freqMSB":5,
+	"freqMid":6,
+        "freqLSB":7
     },
     "setDutyCycle":{
         "request":          [5,71,4,27],
