@@ -8,18 +8,18 @@
         "positiveFeedback": "05 47 05 5A"
     },
     "frequencyParametersIndex":{
-        "channel":"04",
-        "freqMSB":"00",
-		"freqMid":"01",
-        "freqLSB":"F3"
+        "channel":4,
+        "freqMSB":5,
+	"freqMid":6,
+        "freqLSB":7
     },
     "setDutyCycle":{
         "request":          "05 47 04 1B",
         "positiveFeedback": "05 47 04 FB"
     },
     "dutyCycleParametersIndex":{
-        "channel":"04",
-        "integerPart":"05",
-        "fractionalPart":"06"
+        "channel":4,
+        "integerPart":5,
+        "fractionalPart":6
     }
 }
